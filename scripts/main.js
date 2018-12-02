@@ -49,17 +49,32 @@ function navbarGenerator(){
   `);
 }
 
+function footerGenerator(){
+  $('#footer').html(`
+  <div class = "row">
+  <div class = "col-12">
+    <h6> <a href="http://myshalombayis.com">Shalom Bayis</a></h6>
+  </div>
+  <div class = "col-12">
+    <p> 
+      <a href="http://myshalombayis.com/#about"> About | </a> 
+      <a href="http://myshalombayis.com/#upcoming_events"> Upcoming Events | </a> 
+      <a href="http://myshalombayis.com/past_events.html"> Past Events | </a> 
+      <a href="http://myshalombayis.com/past_events.html#press"> Press | </a>  
+      <a href="mailto:info@myshalombayis.com?subject=Inquiry%20(From%20Website)&body=*Please%20include%20your%20name%20and%20number%20along%20with%20your%20inquiry.%20Thank%20you!"> Contact | </a>
+      <a href="http://myshalombayis.com#subscribe"> Subscribe</a> 
+    </p>
+  </div>
+</div>
+  `);
+}
+
 $(document).ready(function(){
   handleClickOutsideNavbar();
   navbarGenerator();
-  // footerGenerator();
+  footerGenerator();
 });
 
-// window.sr = ScrollReveal({ reset: true });
-				
-// sr.reveal('.load-hidden', {scale: 0.85, duration: 1000, viewFactor: 0.2,});
-				
-// $(".nav-link").hide().fadeIn(2000);
 				
 // var stickySidebar = $('#upcoming_events').offset().top;
 // stickySidebar= stickySidebar-160;
@@ -76,13 +91,4 @@ $(document).ready(function(){
 // 	}  
 // }); 
 // // this makes a line under the navbar - always have the line there. Dont need this? 
-				
-				
-				
-				
-// $(function() {
-// 	$('.dropdown-toggle').click(function() {
-// 		$(this).next('.dropdown-menu').fadeToggle(500);
-// 	});
-// });
-// this makes the dropdown have a fadein. problem: messes with the dropdown closing
+			

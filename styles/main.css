@@ -3,9 +3,15 @@
 }  */
 /* ADD THE LOAD HIDDEN CLSAS TO EVERYTHING SO IT DOESNT GLITCH */
 
+/* NAVBAR */
+
 body{
   background-color:black;
   text-align: center;
+}
+
+a{
+  cursor: pointer;
 }
 
 .navbar{
@@ -61,10 +67,6 @@ body{
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#FFA986' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-button:focus{
-  outline:none;
-}	
-
 .dropdown-menu{
   border:none;
 }
@@ -76,7 +78,7 @@ button:focus{
   -o-animation: fadein 2s; /* Opera */
 }
 
-
+/* MAIN CONTENT */
 .main1{
   z-index:10;
   background-color:#454140;
@@ -231,8 +233,6 @@ h1, h2{
   font-family: Montserrat;
 }
 
-
-
 p{
   font-family: Montserrat;
 }
@@ -254,71 +254,6 @@ p{
 
 .col-9{
   padding-right: 40px;
-}
-
-.submitbtn{
-  width:50%;
-  margin: auto;
-  text-align: center;
-  font-family:Montserrat;
-}
-
-.btn{
-  background-color:#454140;
-  color:#FFA986;
-  transition: background-color .5s;
-}
-
-.btn:hover{
-  background-color: white;
-  color:#454140;
-  /* transition:; */
-}
-
-@media(min-width: 768px){
-  .form-horizontal .control-label{
-    text-align: left;
-  }
-}
-
-@media(max-width: 500px){
-  .form-horizontal .control-label, .form-control{
-    font-size: 12px;
-  }
-  
-  #mc_embed_signup label, #mc_embed_signup p{
-    font-size:12px;
-  }
-  
-  #footer p a{
-    font-size: 14px;
-  }
-  
-  .main1 h1{
-    font-size:3rem;
-  }
-  
-  .main2 h1{
-    font-size:3rem;
-  }
-}
-
-label, input, textarea{
-  font-family: Montserrat;
-}
-
-@media(max-width: 321px){
-  .form-horizontal .control-label{
-    font-size: 8px;
-  }
-  
-  #mc_embed_signup label,  #mc_embed_signup p{
-    font-size:8px;
-  }
-}
-
-.form{
-  margin-bottom: 0;
 }
 
 #footer a {
@@ -353,6 +288,7 @@ label, input, textarea{
   margin-bottom:0;
   padding:5px;
 }
+
 .loader {
   margin: 100px auto;
   font-size: 25px;
@@ -367,6 +303,7 @@ label, input, textarea{
   -ms-transform: translateZ(0);
   transform: translateZ(0);
 }
+
 @-webkit-keyframes load5 {
   0%,
   100% {
@@ -430,7 +367,7 @@ label, input, textarea{
     opacity:1;
   }
 }
-@-moz-keyframes fadein { /* Firefox */
+@-moz-keyframes fadein { /* xrefox */
   from {
     opacity:0;
   }

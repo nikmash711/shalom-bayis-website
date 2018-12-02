@@ -1,0 +1,38 @@
+	
+		.slideshow{
+			top:130px;
+			left: 50%;
+			transform: translateX(-50%);
+      position:fixed;
+		}
+    
+    .filler{
+			height:550px;
+    }
+    
+    h2{
+      font-style: italic;
+    }
+    
+		@media(max-width:470px){
+			.filler{
+				height:420px;
+			}
+		}
+		
+		@media(max-width:350px){
+			.filler{
+				height:350px;
+			}
+		}		
+		@media (min-width:767px){
+			.slideshow{
+				width:600px;
+			}
+		}
+		
+		@media (max-width:500px){	
+			h1{
+				font-size:1.5rem;
+			}
+		}

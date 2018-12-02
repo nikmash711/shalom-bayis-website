@@ -98,3 +98,72 @@
   transition: background-color .3s;
 }
 
+button:focus{
+  outline:none;
+}	
+
+.submitbtn{
+  width:50%;
+  margin: auto;
+  text-align: center;
+  font-family:Montserrat;
+}
+
+.btn{
+  background-color:#454140;
+  color:#FFA986;
+  transition: background-color .5s;
+}
+
+.btn:hover{
+  background-color: white;
+  color:#454140;
+  /* transition:; */
+}
+
+
+@media(min-width: 768px){
+  .form-horizontal .control-label{
+    text-align: left;
+  }
+}
+
+@media(max-width: 500px){
+  .form-horizontal .control-label, .form-control{
+    font-size: 12px;
+  }
+  
+  #mc_embed_signup label, #mc_embed_signup p{
+    font-size:12px;
+  }
+  
+  #footer p a{
+    font-size: 14px;
+  }
+  
+  .main1 h1{
+    font-size:3rem;
+  }
+  
+  .main2 h1{
+    font-size:3rem;
+  }
+}
+
+label, input, textarea{
+  font-family: Montserrat;
+}
+
+@media(max-width: 321px){
+  .form-horizontal .control-label{
+    font-size: 8px;
+  }
+  
+  #mc_embed_signup label,  #mc_embed_signup p{
+    font-size:8px;
+  }
+}
+
+.form{
+  margin-bottom: 0;
+}
