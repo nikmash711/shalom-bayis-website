@@ -1,0 +1,100 @@
+/* UPCOMING EVENT INFO */
+.tba, .tba>a{
+  font-family:Montserrat; 
+  font-size:16px; 
+  color:#454140;
+  text-align:center;
+  line-height:.6;
+}
+
+.text{
+  text-align:center;
+  font-family:Montserrat; 
+  font-size:16px; 
+}
+
+.white{
+  color:white;
+}
+
+.pink{
+  color: #FFA986;
+}
+
+.right{
+  text-align: right;
+}
+
+.left{
+  text-align: left;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+.shalom-bayis-heading{
+  font-family:Mr Dafoe;
+  font-size:96px; 
+  line-height:1;
+  text-align:center;
+}
+
+.city-valley-heading{
+  font-family:Mr Dafoe;
+  font-size:60px; 
+  line-height:1;
+  text-align:center; 
+  color:white; 
+  border-top:5px solid #FFA986; 
+  padding:10px;
+}
+
+.womens-mens-class{
+  font-family:Mr Dafoe;
+  font-size:50px; 
+  line-height:1;
+  text-align:center;
+}
+
+#rsvp{
+  background-color: #FFA986;
+  text-align: center;
+  padding:10px;
+  border-radius: 10px;
+  margin:10px;
+  display: inline-block;
+}
+
+#rsvp a{
+  color:black;
+  font-weight: bold;
+}
+
+#rsvp:hover, #rsvp:focus{
+  background-color: white;
+}
+
+#rsvp:hover a, #rsvp:focus a{
+  text-decoration: none;
+}
+
+#upcoming_event_flyer{
+  width:90%;
+}
+
+/* SUBSCRIBE FORM */
+#mc-embedded-subscribe{
+  background-color:#454140; 
+  color:white;
+  margin-top:10px;
+  transition: background-color .3s;
+}
+
+
+#mc-embedded-subscribe:hover{
+  background-color: white;
+  color:black;
+  transition: background-color .3s;
+}
+
