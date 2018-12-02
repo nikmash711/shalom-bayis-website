@@ -237,6 +237,10 @@ p{
   font-family: Montserrat;
 }
 
+.bold{
+  font-weight: 700;
+}
+
 /*Contact Form Page*/
 
 .fixthis{

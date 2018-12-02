@@ -1,5 +1,10 @@
 	
-		.slideshow{
+    .shalom-bayis-pic{
+      width:100%;
+      padding: 10px 0px;
+    }
+
+    .slideshow{
 			top:130px;
 			left: 50%;
 			transform: translateX(-50%);
