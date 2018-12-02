@@ -13,7 +13,7 @@ function handleClickOutsideNavbar(){
 
 function navbarGenerator(){
   $('.navbar').html(`
-  <a class="navbar-brand" href="index.html#nav"><img src="img/logo.png" width = "125px" height = "70px"></a>
+  <a class="navbar-brand" href="index.html#nav"><img src="img/logo.png" width = "100px" height = "60px"></a>
   <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
