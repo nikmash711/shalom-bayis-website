@@ -76,6 +76,7 @@ function upcomingEventInfo(){
 function upcomingEventTBA(){
   $('.tba-info').html(`
   <h1 class = "load-hidden">Upcoming Events</h1>
+  <br>
   <p class = "tba">TBA. Please check back soon for upcoming events. </p>
   <p class = "tba"> <a href="http://myshalombayis.com/past_events.html">Check out previous events here!</a></p>
   `);
