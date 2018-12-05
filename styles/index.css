@@ -164,3 +164,14 @@ label, input, textarea{
 .form{
   margin-bottom: 0;
 }
+
+.about a {
+  color:#FFA986;
+  text-decoration: underline;
+}
+
+.about a:hover, .about a:active {
+  color:white;
+  text-decoration: none;
+  transition: color .3s;
+}
