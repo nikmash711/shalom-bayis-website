@@ -78,11 +78,11 @@ function upcomingEventTBA(){
   <h1 class = "load-hidden">Upcoming Events</h1>
   <br>
   <p class = "tba">TBA. Please check back soon for upcoming events. </p>
-  <p class = "tba"> <a href="http://myshalombayis.com/past_events.html">Check out previous events here!</a></p>
+  <p class = "tba"> <a href="past_events.html#past_events">Check out previous events here!</a></p>
   `);
 }
 
-$(document).ready(function(){
+// $(document).ready(function(){
   upcomingEventTBA();
   // upcomingEventInfo();
-});
+// });

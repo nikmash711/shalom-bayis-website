@@ -39,6 +39,8 @@ function navbarGenerator(){
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="nav-link" href="past_events.html#press">News Articles on Past Events</a>
+          <div class="dropdown-divider"></div>
+          <a class="nav-link" href="past_events.html#testimonies">Testimonies</a>
         </div>
       </li>
       <li class="nav-item">
