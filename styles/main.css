@@ -17,7 +17,7 @@ a{
 
 .navbar{
   border-bottom: 5px solid #FFA986;
-  height: 90px; 
+  /* height: 90px;  */
 }
 
 .navbar, .dropdown-menu{
