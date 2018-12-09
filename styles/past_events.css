@@ -16,7 +16,9 @@
     }
     
     h2{
-      font-style: italic;
+			font-style: italic;
+			font-weight: bold;
+			font-family: Montserrat;
     }
     
 		@media(max-width:470px){

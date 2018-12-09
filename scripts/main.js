@@ -38,9 +38,9 @@ function navbarGenerator(){
           Press
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="nav-link" href="past_events.html#press">News Articles on Past Events</a>
+          <a class="nav-link" href="press.html#testimonials">Testimonials</a>  
           <div class="dropdown-divider"></div>
-          <a class="nav-link" href="past_events.html#testimonials">Testimonials</a>
+          <a class="nav-link" href="press.html#press">News Articles on Past Events</a>
         </div>
       </li>
       <li class="nav-item">
@@ -65,7 +65,7 @@ function footerGenerator(){
       <a href="index.html#about"> About | </a> 
       <a href="index.html#upcoming_events"> Upcoming Events | </a> 
       <a href="past_events.html#past_events"> Past Events | </a> 
-      <a href="past_events.html#press"> Press | </a>  
+      <a href="press.html#press"> Press | </a>  
       <a href="index.html#subscribe"> Subscribe | </a> 
       <a href="mailto:info@myshalombayis.com?subject=Inquiry%20(From%20Website)&body=*Please%20include%20your%20name%20and%20number%20along%20with%20your%20inquiry.%20Thank%20you!"> Contact</a>
     </p>

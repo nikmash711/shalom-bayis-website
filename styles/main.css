@@ -9,6 +9,7 @@ body,html{
   background-color:#454140;
   text-align: center;
   scroll-behavior: smooth;
+  font-family: Montserrat;
 }
 
 a{
@@ -17,6 +18,7 @@ a{
 
 .navbar{
   border-bottom: 5px solid #FFA986;
+  font-family: Montserrat;
   /* height: 90px;  */
 }
 
@@ -122,7 +124,7 @@ a{
 
 .anchor{
   display: block;
-  height: 100px; /*same height as header*/
+  height: 90px; /*same height as header*/
   margin-top: -100px; /*same height as header*/
   visibility: hidden;
 } /*so when we click it, it goes to the right place*/
@@ -157,6 +159,28 @@ hr.style5:after {
   content: "\00a0";  
 }
 
+/* Flaired edges, by Tomas Theunissen */
+
+hr.style7 {
+  overflow: visible; /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: #454140;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+  margin-top:50px;
+}
+hr.style7:before { /* Not really supposed to work, but does */
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #454140;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
 .body_cont{
   padding-bottom: 15px;
 }
@@ -167,9 +191,15 @@ hr.style5:after {
 }
 
 .main3 h1{
-  font-family: 'Nunito', sans-serif;
+  font-family: Montserrat;
   font-size:2rem;
-  color:black;
+  color:#454140;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.main1 h6, .main3 h6{
+font-weight: bold;
 }
 
 #footer h6{
@@ -371,4 +401,8 @@ blockquote footer {
 }
 blockquote cite:before {
   content: "\2013";
+}
+
+blockquote > p{
+  font-family: Montserrat;
 }
