@@ -406,3 +406,14 @@ blockquote cite:before {
 blockquote > p{
   font-family: Montserrat;
 }
+
+.shalom-bayis-pic{
+  width:100%;
+  padding: 10px 0px;
+}
+
+h2{
+  font-style: italic;
+  font-weight: bold;
+  font-family: Montserrat;
+}

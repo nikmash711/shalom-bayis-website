@@ -1,10 +1,4 @@
-	
-    .shalom-bayis-pic{
-      width:100%;
-      padding: 10px 0px;
-    }
-
-    .slideshow{
+   .slideshow{
 			top:130px;
 			left: 50%;
 			transform: translateX(-50%);
@@ -13,12 +7,6 @@
     
     .filler{
 			height:550px;
-    }
-    
-    h2{
-			font-style: italic;
-			font-weight: bold;
-			font-family: Montserrat;
     }
     
 		@media(max-width:470px){
