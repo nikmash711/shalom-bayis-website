@@ -4,7 +4,6 @@
   font-size:16px; 
   color:#454140;
   text-align:center;
-  line-height:.6;
 }
 
 .text{
@@ -153,11 +152,11 @@ label, input, textarea{
 
 @media(max-width: 321px){
   .form-horizontal .control-label{
-    font-size: 8px;
+    font-size: 10px;
   }
   
   #mc_embed_signup label,  #mc_embed_signup p{
-    font-size:8px;
+    font-size:10px;
   }
 }
 
