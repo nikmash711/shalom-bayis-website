@@ -74,10 +74,17 @@ function footerGenerator(){
   `);
 }
 
+function footer2Generator(){
+  $('#designed').html(`
+    <h5><i class="fas fa-paint-brush"></i> <strong>Website by NikMash Creations</strong></h5>
+  `);
+}
+
 $(document).ready(function(){
   handleClickOutsideNavbar();
   navbarGenerator();
   footerGenerator();
+  footer2Generator();
 });
 
 				
