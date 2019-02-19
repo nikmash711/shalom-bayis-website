@@ -22,6 +22,10 @@ a{
   /* height: 90px;  */
 }
 
+.fa-bars {
+  color: #FFA986;
+}
+
 .navbar, .dropdown-menu{
   text-align: center;
   background-color: #454140;
@@ -326,10 +330,6 @@ p{
   color:#454140; 
   font-size: 12px;
   font-family: Montserrat;
-}
-
-.fa-bars {
-  color: #FFA986;
 }
 
 #designed h5
