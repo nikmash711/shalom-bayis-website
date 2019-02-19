@@ -15,7 +15,7 @@ function navbarGenerator(){
   $('.navbar').html(`
   <a class="navbar-brand" href="index.html#upcoming_events"><img src="img/logo.png" width = "100px" height = "60px"></a>
   <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <i class="fas fa-bars"></i>
   </button>
   
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
