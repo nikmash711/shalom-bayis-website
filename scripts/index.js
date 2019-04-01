@@ -21,7 +21,7 @@ function upcomingEventInfo(){
   <p class = "white text">COMPLIMENTARY VALET PARKING AVAILABLE</p>
 </div>
 <div id = "rsvp" class = "load-hidden"> 
-  <a href="" target = "_blank">RSVP Women's Class (City)</a>
+  <a href="https://www.eventbrite.com/e/great-ways-to-have-a-great-marriage-tickets-59728311989" target = "_blank">RSVP Women's Class (City)</a>
 </div>
 <div class = "flyer load-hidden">
   <p class = "womens-mens-class" >Men's Class</p>
@@ -35,8 +35,9 @@ function upcomingEventInfo(){
   <p class = "white text">142 S. Rexford Drive, Beverly Hills, CA 90212</p>
 </div>
 <div id = "rsvp" class = "load-hidden"> 
-  <a href="" target = "_blank">RSVP Men's Class (City) </a>
+  <a href="https://www.eventbrite.com/e/great-ways-to-have-a-great-marriage-tickets-59728361136" target = "_blank">RSVP Men's Class (City) </a>
 </div>
+<!--
 <div class = "flyer load-hidden">
   <p class = "city-valley-heading">In The Valley:</p>
   <p class = "womens-mens-class">Women's Class</p>
@@ -49,7 +50,7 @@ function upcomingEventInfo(){
   <p class = "white text">12631 COLLINS STREET, VALLEY VILLAGE, CA 91607</p>
 </div>
 <div id = "rsvp" class = "load-hidden"> 
-  <a href="" target = "_blank">RSVP Women's Class (Valley) </a>
+  <a href="https://www.eventbrite.com/e/great-ways-to-have-a-great-marriage-tickets-59728147497" target = "_blank">RSVP Women's Class (Valley) </a>
 </div>
 <div class = "flyer load-hidden">
   <p class = "womens-mens-class">Men's Class</p>
@@ -60,8 +61,9 @@ function upcomingEventInfo(){
   <p class = "white text">8:00-9:00PM</p>
   <p class = "white text">12631 COLLINS STREET, VALLEY VILLAGE, CA 91607</p>
 </div>
+-->
 <div id = "rsvp" class = "load-hidden"> 
-  <a href="" target = "_blank">RSVP Men's Class (Valley) </a>
+  <a href="https://www.eventbrite.com/e/great-ways-to-have-a-great-marriage-tickets-59728428337" target = "_blank">RSVP Men's Class (Valley) </a>
 </div>
 
 <div class = "flyer load-hidden">
