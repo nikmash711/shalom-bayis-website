@@ -68,7 +68,7 @@ function upcomingEventInfo(){
   <p class = "pink text"></p>
   <p class = "white text">Email info@myshalombayis.com for any questions</p>
   <p class = "white text">Endorsed jointly by:</p>
-  <img src="img/agudath.png" id = "logo"> <img src="img/ou.jpg" id = "logo">
+  <img src="./img/agudath.png" id = "logo"> <img src="./img/ou.jpg" id = "logo">
 </div>
   `);
 }

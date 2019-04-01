@@ -1,4 +1,9 @@
 /* UPCOMING EVENT INFO */
+.upcoming-flyer-info{
+  background: #454140;
+  padding: 10px;
+}
+
 .tba, .tba>a{
   font-family:Montserrat; 
   font-size:16px; 

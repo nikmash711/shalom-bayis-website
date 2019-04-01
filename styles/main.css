@@ -108,8 +108,14 @@ a{
   color:#454140;
 }
 
-.main2 p {
+/* .main2 p {
   font-family: Montserrat;
+} */
+
+.main2.first.upcoming {
+  background: #FFA986;
+  color: #FFA986;
+  /* color:#454140; */
 }
 
 @media (max-width:500px){	
