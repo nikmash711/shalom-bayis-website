@@ -27,7 +27,7 @@ function upcomingEventInfo(){
   <p class = "womens-mens-class" >Men's Class</p>
   <p class = "white text">LED BY:</p>
   <p >RABBI EFRIAM STAUBER</p>
-  <p class = "white text">Director of The Torah Center, Jerusalem | Mental Health Professional</p>
+  <p class = "white text">Director eKehilla, Jerusalem | Marriage Counselor</p>
   <p class = "pink text">TUESDAY</p>
   <p class = "white text">MAY 14, 2019</p>
   <p class = "white text">8:00-9:00PM</p>
@@ -47,7 +47,7 @@ function upcomingEventInfo(){
   <p class = "pink text">SUNDAY</p>
   <p class = "white text">MAY 12, 2019</p>
   <p class = "white text">8:00-9:00PM</p>
-  <p class = "white text">12631 COLLINS STREET, VALLEY VILLAGE, CA 91607</p>
+  <p class = "white text">5532 VOLETTA PL, VALLEY VILLAGE, CA 91607</p>
 </div>
 <div id = "rsvp" class = "load-hidden"> 
   <a href="https://www.eventbrite.com/e/great-ways-to-have-a-great-marriage-tickets-59728147497" target = "_blank">RSVP Women's Class (Valley) </a>
@@ -55,11 +55,11 @@ function upcomingEventInfo(){
 <div class = "flyer load-hidden">
   <p class = "womens-mens-class">Men's Class</p>
   <p >RABBI EFRIAM STAUBER</p>
-  <p class = "white text">Director of The Torah Center, Jerusalem | Mental Health Professional</p>
+  <p class = "white text">Director eKehilla, Jerusalem | Marriage Counselor</p>
   <p class = "pink text">TUESDAY</p>
   <p class = "white text">MAY 13, 2019</p>
   <p class = "white text">8:00-9:00PM</p>
-  <p class = "white text">12631 COLLINS STREET, VALLEY VILLAGE, CA 91607</p>
+  <p class = "white text">5532 VOLETTA PL, VALLEY VILLAGE, CA 91607</p>
 </div>
 -->
 <div id = "rsvp" class = "load-hidden"> 
