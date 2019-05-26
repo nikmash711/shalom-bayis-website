@@ -26,7 +26,7 @@ function upcomingEventInfo(){
 <div class = "flyer load-hidden">
   <p class = "womens-mens-class" >Men's Class</p>
   <p class = "white text">LED BY:</p>
-  <p >RABBI EFRIAM STAUBER</p>
+  <p >RABBI EFRAIM STAUBER</p>
   <p class = "white text">Director eKehilla, Jerusalem | Marriage Counselor</p>
   <p class = "pink text">TUESDAY</p>
   <p class = "white text">MAY 14, 2019</p>
@@ -37,7 +37,6 @@ function upcomingEventInfo(){
 <div id = "rsvp" class = "load-hidden"> 
   <a href="https://www.eventbrite.com/e/great-ways-to-have-a-great-marriage-tickets-59728361136" target = "_blank">RSVP Men's Class (City) </a>
 </div>
-<!--
 <div class = "flyer load-hidden">
   <p class = "city-valley-heading">In The Valley:</p>
   <p class = "womens-mens-class">Women's Class</p>
@@ -46,7 +45,7 @@ function upcomingEventInfo(){
   <p class = "white text">Life Coach and International Speaker</p>
   <p class = "pink text">SUNDAY</p>
   <p class = "white text">MAY 12, 2019</p>
-  <p class = "white text">8:00-9:00PM</p>
+  <p class = "white text">11:00AM-12:00PM</p>
   <p class = "white text">5532 VOLETTA PL, VALLEY VILLAGE, CA 91607</p>
 </div>
 <div id = "rsvp" class = "load-hidden"> 
@@ -54,14 +53,13 @@ function upcomingEventInfo(){
 </div>
 <div class = "flyer load-hidden">
   <p class = "womens-mens-class">Men's Class</p>
-  <p >RABBI EFRIAM STAUBER</p>
+  <p >RABBI EFRAIM STAUBER</p>
   <p class = "white text">Director eKehilla, Jerusalem | Marriage Counselor</p>
   <p class = "pink text">TUESDAY</p>
   <p class = "white text">MAY 13, 2019</p>
   <p class = "white text">8:00-9:00PM</p>
   <p class = "white text">5532 VOLETTA PL, VALLEY VILLAGE, CA 91607</p>
 </div>
--->
 <div id = "rsvp" class = "load-hidden"> 
   <a href="https://www.eventbrite.com/e/great-ways-to-have-a-great-marriage-tickets-59728428337" target = "_blank">RSVP Men's Class (Valley) </a>
 </div>
@@ -81,10 +79,12 @@ function upcomingEventTBA(){
   <br>
   <p class = "tba">TBA. Please check back soon for upcoming events. </p>
   <p class = "tba"> <a href="past_events.html#past_events">Check out previous events here!</a></p>
+  <p class = "tba">Recording of our latest lecture:</p>
+  <p class = "tba"> <a href="  https://www.torahanytime.com/#/lectures?v=82919">Men's Lecture by Rabbi Efraim Stauber</a></p>
   `);
 }
 
 // $(document).ready(function(){
-  // upcomingEventTBA();
-  upcomingEventInfo();
+  upcomingEventTBA();
+  // upcomingEventInfo();
 // });
