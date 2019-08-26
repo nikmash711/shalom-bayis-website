@@ -79,12 +79,12 @@ function upcomingEventTBA() {
   <br>
   <p class = "tba">TBA. Please check back soon for upcoming events. </p>
   <p class = "tba"> <a href="past_events.html#past_events">Check out previous events here!</a></p>
-  <p class = "tba">Recording of our latest lecture:</p>
+  <p class = "tba">Recording of a recent lecture:</p>
   <p class = "tba"> <a href="  https://www.torahanytime.com/#/lectures?v=82919">Men's Lecture by Rabbi Efraim Stauber</a></p>
   `);
 }
 
 $(document).ready(function() {
-  // upcomingEventTBA();
-  upcomingEventInfo();
+  upcomingEventTBA();
+  // upcomingEventInfo();
 });
