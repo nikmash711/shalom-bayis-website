@@ -7,61 +7,62 @@ function upcomingEventInfo() {
   <p class = "white text left">Complimentary class on </p>
   <p class = "shalom-bayis-heading">Shalom Bayis</p>
   <p class = "white text right"> a community event.</p>
-  <p class = "white text bold">INTIMACY: Re-ignite the Spark Within</p>
+  <p class = "white text bold">Tools & Tips From the Wisdom of Torah</p>
   <p class = "city-valley-heading">In The City:</p>
   <p class = "womens-mens-class" >Women's Class</p>
   <p class = "white text">LED BY:</p>
-  <p class = "white text">Sarah Karmely</p>
-  <p class = "white text">Relationship Counselor & International Lecturer</p>
+  <p class = "white text">Michal Horowitz</p>
+  <p class = "white text"> International Lecturer & Judaic Studies Teacher</p>
   <p class = "pink text">MONDAY</p>
-  <p class = "white text">JULY 29, 2019</p>
+  <p class = "white text">NOV 18, 2019</p>
   <p class = "white text">8:00-9:00PM</p>
   <p class = "pink text">NESSAH SYNAGOGUE</p>
   <p class = "white text">142 S. Rexford Drive, Beverly Hills, CA 90212</p>
   <p class = "white text">COMPLIMENTARY VALET PARKING AVAILABLE</p>
 </div>
 <div id = "rsvp" class = "load-hidden"> 
-  <a href="https://www.eventbrite.com/e/intimacy-re-ignite-the-spark-within-tickets-65503660211" target = "_blank">RSVP Women's Class (City)</a>
+  <a href="https://www.eventbrite.com/e/79288232237" target = "_blank">RSVP Women's Class (City)</a>
 </div>
 <div class = "flyer load-hidden">
   <p class = "womens-mens-class" >Men's Class</p>
   <p class = "white text">LED BY:</p>
-  <p >Rabbi Avraham Peretz Friedman</p>
-  <p class = "white text">Author of Marital Intimacy</p>
+  <p >Rabbi Dov Heller</p>
+  <p class = "white text">Licensed Marriage Therapist & Adjunct Rabbi at Aish Hatorah</p>
   <p class = "pink text">TUESDAY</p>
-  <p class = "white text">JULY 30, 2019</p>
+  <p class = "white text">NOV 19, 2019</p>
   <p class = "white text">8:00-9:00PM</p>
   <p class = "pink text">NESSAH SYNAGOGUE</p>
   <p class = "white text">142 S. Rexford Drive, Beverly Hills, CA 90212</p>
 </div>
 <div id = "rsvp" class = "load-hidden"> 
-  <a href="https://www.eventbrite.com/e/intimacy-re-ignite-the-spark-within-tickets-65503750481" target = "_blank">RSVP Men's Class (City) </a>
+  <a href="https://www.eventbrite.com/e/79288850085" target = "_blank">RSVP Men's Class (City) </a>
 </div>
 <div class = "flyer load-hidden">
   <p class = "city-valley-heading">In The Valley:</p>
   <p class = "womens-mens-class">Women's Class</p>
   <p class = "white text">LED BY:</p>
-  <p class = "white text">Sarah Karmely</p>
-  <p class = "white text">Relationship Counselor & International Lecturer</p>
+  <p class = "white text">Michal Horowitz</p>
+  <p class = "white text">International Lecturer & Judaic Studies Teacher</p>
   <p class = "pink text">SUNDAY</p>
-  <p class = "white text">JULY 28, 2019</p>
+  <p class = "white text">NOV 17, 2019</p>
   <p class = "white text">8:00-9:00PM</p>
-  <p class = "white text">12631 Collins Street, Valley Village, CA 91607</p>
+  <p class = "pink text">Congregation Shaarei Zedek</p>
+  <p class = "white text">12800 Chandler Blvd, Valley Village, CA 91607</p>
 </div>
 <div id = "rsvp" class = "load-hidden"> 
-  <a href="https://www.eventbrite.com/e/intimacy-re-ignite-the-spark-within-tickets-65504023297" target = "_blank">RSVP Women's Class (Valley) </a>
+  <a href="https://www.eventbrite.com/e/79288675563" target = "_blank">RSVP Women's Class (Valley) </a>
 </div>
 <div class = "flyer load-hidden">
   <p class = "womens-mens-class">Men's Class</p>
-  <p >Rabbi Avraham Peretz Friedman</p>
-  <p class = "white text">Author of Marital Intimacy</p>
+  <p >Rabbi Jonathan Rosenberg</p>
+  <p class = "white text">Rabbi of Congregation Shaarei Zedek</p>
   <p class = "pink text">MONDAY</p>
-  <p class = "white text">JULY 29, 2019</p>
+  <p class = "white text">NOV 18, 2019</p>
   <p class = "white text">8:00-9:00PM</p>
-  <p class = "white text">12631 Collins Street, Valley Village, CA 91607</p>
-</div>
+  <p class = "pink text">Congregation Shaarei Zedek</p>
+  <p class = "white text">12800 Chandler Blvd, Valley Village, CA 91607</p></div>
 <div id = "rsvp" class = "load-hidden"> 
-  <a href="https://www.eventbrite.com/e/intimacy-re-ignite-the-spark-within-tickets-65504057399" target = "_blank">RSVP Men's Class (Valley) </a>
+  <a href="https://www.eventbrite.com/e/79288765833" target = "_blank">RSVP Men's Class (Valley) </a>
 </div>
 
 <div class = "flyer load-hidden">
@@ -85,6 +86,6 @@ function upcomingEventTBA() {
 }
 
 $(document).ready(function() {
-  upcomingEventTBA();
-  // upcomingEventInfo();
+  // upcomingEventTBA();
+  upcomingEventInfo();
 });
