@@ -1,181 +1,191 @@
 /* UPCOMING EVENT INFO */
-.upcoming-flyer-info{
+.upcoming-flyer-info {
   background: #454140;
   padding: 10px;
 }
 
-.tba, .tba>a{
-  font-family:Montserrat; 
-  font-size:16px; 
-  color:#454140;
-  text-align:center;
+.tba,
+.tba > a {
+  font-family: Montserrat;
+  font-size: 16px;
+  color: #454140;
+  text-align: center;
 }
 
-.text{
-  text-align:center;
-  font-family:Montserrat; 
-  font-size:16px; 
+.text {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
 }
 
-.white{
-  color:white;
+.white {
+  color: white;
 }
 
-.pink{
-  color: #FFA986;
+.pink {
+  color: #ffa986;
 }
 
-.right{
+.right {
   text-align: right;
 }
 
-.left{
+.left {
   text-align: left;
 }
 
-
-.shalom-bayis-heading{
-  font-family:Mr Dafoe;
-  font-size:96px; 
-  line-height:1;
-  text-align:center;
-}
-
-.city-valley-heading{
-  font-family:Mr Dafoe;
-  font-size:60px; 
-  line-height:1;
-  text-align:center; 
-  color:white; 
-  border-top:5px solid #FFA986; 
-  padding:10px;
-}
-
-.womens-mens-class{
-  font-family:Mr Dafoe;
-  font-size:50px; 
-  line-height:1;
-  text-align:center;
-}
-
-#rsvp{
-  background-color: #FFA986;
+.shalom-bayis-heading {
+  font-family: Mr Dafoe;
+  font-size: 96px;
+  line-height: 1;
   text-align: center;
-  padding:10px;
+}
+
+.city-valley-heading {
+  font-family: Mr Dafoe;
+  font-size: 60px;
+  line-height: 1;
+  text-align: center;
+  color: white;
+  border-top: 5px solid #ffa986;
+  padding: 10px;
+}
+
+.womens-mens-class {
+  font-family: Mr Dafoe;
+  font-size: 50px;
+  line-height: 1;
+  text-align: center;
+}
+
+#rsvp {
+  background-color: #ffa986;
+  text-align: center;
+  padding: 10px;
   border-radius: 10px;
-  margin:10px;
+  margin: 10px;
   display: inline-block;
 }
 
-#rsvp a{
-  color:black;
+#rsvp a {
+  color: black;
   font-weight: bold;
 }
 
-#rsvp:hover, #rsvp:focus{
+#rsvp:hover,
+#rsvp:focus {
   background-color: white;
 }
 
-#rsvp:hover a, #rsvp:focus a{
+#rsvp:hover a,
+#rsvp:focus a {
   text-decoration: none;
 }
 
-#upcoming_event_flyer{
-  width:90%;
+#upcoming_event_flyer {
+  width: 90%;
 }
 
 /* SUBSCRIBE FORM */
-#mc-embedded-subscribe{
-  background-color:#454140; 
-  color:white;
-  margin-top:10px;
-  transition: background-color .3s;
+#mc-embedded-subscribe {
+  background-color: #454140;
+  color: white;
+  margin-top: 10px;
+  transition: background-color 0.3s;
 }
 
-
-#mc-embedded-subscribe:hover{
+#mc-embedded-subscribe:hover {
   background-color: white;
-  color:black;
-  transition: background-color .3s;
+  color: black;
+  transition: background-color 0.3s;
 }
 
-button:focus{
-  outline:none;
-}	
+button:focus {
+  outline: none;
+}
 
-.submitbtn{
-  width:50%;
+.submitbtn {
+  width: 50%;
   margin: auto;
   text-align: center;
-  font-family:Montserrat;
+  font-family: Montserrat;
 }
 
-.btn{
-  background-color:#454140;
-  color:#FFA986;
-  transition: background-color .5s;
+.btn {
+  background-color: #454140;
+  color: #ffa986;
+  transition: background-color 0.5s;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: white;
-  color:#454140;
+  color: #454140;
   /* transition:; */
 }
 
-
-@media(min-width: 768px){
-  .form-horizontal .control-label{
+@media (min-width: 768px) {
+  .form-horizontal .control-label {
     text-align: left;
   }
 }
 
-@media(max-width: 500px){
-  .form-horizontal .control-label, .form-control{
+@media (max-width: 500px) {
+  .form-horizontal .control-label,
+  .form-control {
     font-size: 12px;
   }
-  
-  #mc_embed_signup label, #mc_embed_signup p{
-    font-size:12px;
+
+  #mc_embed_signup label,
+  #mc_embed_signup p {
+    font-size: 12px;
   }
-  
-  #footer p a{
+
+  #footer p a {
     font-size: 14px;
   }
-  
-  .main1 h1{
-    font-size:3rem;
+
+  .main1 h1 {
+    font-size: 3rem;
   }
-  
-  .main2 h1{
-    font-size:3rem;
+
+  .main2 h1 {
+    font-size: 3rem;
   }
 }
 
-label, input, textarea{
+label,
+input,
+textarea {
   font-family: Montserrat;
 }
 
-@media(max-width: 321px){
-  .form-horizontal .control-label{
+@media (max-width: 321px) {
+  .form-horizontal .control-label {
     font-size: 10px;
   }
-  
-  #mc_embed_signup label,  #mc_embed_signup p{
-    font-size:10px;
+
+  #mc_embed_signup label,
+  #mc_embed_signup p {
+    font-size: 10px;
   }
 }
 
-.form{
+.form {
   margin-bottom: 0;
 }
 
 .about a {
-  color:#FFA986;
+  color: #ffa986;
   text-decoration: underline;
 }
 
-.about a:hover, .about a:active {
-  color:white;
+.about a:hover,
+.about a:active {
+  color: white;
   text-decoration: none;
-  transition: color .3s;
+  transition: color 0.3s;
+}
+
+.brody-flyer {
+  width: 80%;
 }
