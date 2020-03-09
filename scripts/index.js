@@ -86,6 +86,6 @@ function upcomingEventTBA() {
 }
 
 $(document).ready(function() {
-  // upcomingEventTBA();
-  upcomingEventInfo();
+  upcomingEventTBA();
+  // upcomingEventInfo();
 });
