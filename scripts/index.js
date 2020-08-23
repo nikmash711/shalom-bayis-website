@@ -85,7 +85,16 @@ function upcomingEventTBA() {
   `);
 }
 
+function upcomingFlyer() {
+  $('.tba-info').html(`
+  <h1 class = "load-hidden">Upcoming Events</h1>
+  <br>
+  <img class="flyer" src="img/flyer.png">
+  `);
+}
+
 $(document).ready(function() {
-  upcomingEventTBA();
+  // upcomingEventTBA();
   // upcomingEventInfo();
+  upcomingFlyer();
 });
