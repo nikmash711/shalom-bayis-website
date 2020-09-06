@@ -80,8 +80,8 @@ function upcomingEventTBA() {
   <br>
   <p class = "tba">TBA. Please check back soon for upcoming events. </p>
   <p class = "tba"> <a href="past_events.html#past_events">Check out previous events here!</a></p>
-  <p class = "tba">Recording of a recent lecture:</p>
-  <p class = "tba"> <a href="  https://www.torahanytime.com/#/lectures?v=82919">Men's Lecture by Rabbi Efraim Stauber</a></p>
+  <p class = "tba">Recording of a recent Zoom shiur:
+  <a href="  https://drive.google.com/file/d/17szNBRDomWofqpFdF5_gJIMkKZn2nKr7/view?ts=5f51ba4a">New Year's Resolutions For Our Marriages</a></p>
   `);
 }
 
@@ -94,7 +94,7 @@ function upcomingFlyer() {
 }
 
 $(document).ready(function() {
-  // upcomingEventTBA();
+  upcomingEventTBA();
   // upcomingEventInfo();
-  upcomingFlyer();
+  // upcomingFlyer();
 });
