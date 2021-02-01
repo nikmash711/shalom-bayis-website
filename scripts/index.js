@@ -80,8 +80,6 @@ function upcomingEventTBA() {
   <br>
   <p class = "tba">TBA. Please check back soon for upcoming events. </p>
   <p class = "tba"> <a href="past_events.html#past_events">Check out previous events here!</a></p>
-  <p class = "tba">Recording of a recent Zoom shiur:
-  <a href="https://drive.google.com/file/d/19UOpnSMLgfcCUDCK2ie_e824O8hgGb6w/view?usp=sharing" target=“”_blank>New Year's Resolutions For Our Marriages</a></p>
   `);
 }
 
