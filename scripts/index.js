@@ -88,11 +88,15 @@ function upcomingFlyer() {
   <h1 class = "load-hidden">Upcoming Events</h1>
   <br>
   <img class="flyer" src="img/flyer.png">
+  <br>
+  <br>
+  <br>
+  <img class="flyer" src="img/flyer2.jpeg">
   `);
 }
 
 $(document).ready(function() {
-  upcomingEventTBA();
+  // upcomingEventTBA();
   // upcomingEventInfo();
-  // upcomingFlyer();
+  upcomingFlyer();
 });
