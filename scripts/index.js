@@ -89,13 +89,10 @@ function upcomingFlyer() {
   <br>
   <img class="flyer" src="img/flyer.png">
   <br>
-  <br>
-  <br>
-  <img class="flyer" src="img/flyer2.jpeg">
   `);
 }
 
-$(document).ready(function() {
+$(document).ready(function () {
   // upcomingEventTBA();
   // upcomingEventInfo();
   upcomingFlyer();
