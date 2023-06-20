@@ -93,7 +93,7 @@ function upcomingFlyer() {
 }
 
 $(document).ready(function () {
-  // upcomingEventTBA();
+  upcomingEventTBA();
   // upcomingEventInfo();
-  upcomingFlyer();
+  // upcomingFlyer();
 });
